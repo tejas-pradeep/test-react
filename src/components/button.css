@@ -1,0 +1,31 @@
+:root {
+    --primary : #fff;
+}
+.btn {
+    padding: 8px 20px;
+    border-radius: 10%;
+    outline: black;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: var(--primary);
+    color: black;
+}
+.btn--outline {
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+.btn--medium {
+   font-size: 20px;
+}
+.btn--large {
+    font-size: 50px;
+}
+.btn--medium :hover, .btn--large:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.5s ease-out;
+}

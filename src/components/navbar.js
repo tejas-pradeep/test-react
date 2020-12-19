@@ -35,6 +35,11 @@ function Navbar() {
                                Home4
                            </Link>
                        </li>
+                       <li className='nav-item'>
+                           <Link to ="/signup" className='nav-links-signup' onClick={closedMenu}>
+                              Sign Up
+                           </Link>
+                       </li>
                    </ul>
 
                </div>
